@@ -1,0 +1,14 @@
+# Core Django runtime dependencies
+asgiref==3.12.1
+Django==6.1.1
+sqlparse==0.6.0
+tzdata==2026.3
+
+# REST API, JWT authentication, and CORS support
+django-cors-headers==4.9.0
+djangorestframework==3.18.1
+djangorestframework_simplejwt==5.5.1
+PyJWT==2.13.0
+
+# Loads the backend .env file in manage.py
+django-dotenv==1.4.2
